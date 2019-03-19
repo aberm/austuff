@@ -36,7 +36,11 @@ class OrderItemsController < ApplicationController
 
   # DELETE /order_items/1
   def destroy
-    @order_item.destroy
+    if current_user.order_items.find(params[:id])
+      @order_item.destroy
+    else
+      render json: @order_item.errors, status: :unprocessable_entity
+    end
   end
 
   private
