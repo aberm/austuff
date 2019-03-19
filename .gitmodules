@@ -1,0 +1,3 @@
+[submodule "austuff-frontend"]
+	path = austuff-frontend
+	url = https://github.com/aberm/austuff-frontend
