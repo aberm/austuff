@@ -11,6 +11,7 @@ Low priority:
   amounts of data - all user's orders
   - only allow *one* uncomplete order at a time
 - add Product show pages
+- would be cool to add URL query ?API_TOKEN=<token>
 
 
 
