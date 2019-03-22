@@ -1,9 +1,13 @@
 Next steps:
 
 - add price
+- loading animation
+- logo
+- signup -> login
 
 Low priority:
 
+- seed db
 - Move json in UsersController to UserSerializer
 - Create Category table
 - Rewrite backend route resources and controllers
@@ -13,6 +17,7 @@ Low priority:
   - only allow _one_ uncomplete order at a time
 - add Product show pages
 - would be cool to add URL query ?API_TOKEN=<token>
+- front end validations
 
 components:
 
