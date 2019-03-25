@@ -4,6 +4,7 @@ Next steps:
 - loading animation
 - logo
 - signup -> login
+- create folder for documentation
 
 Low priority:
 
