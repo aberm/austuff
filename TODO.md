@@ -2,9 +2,10 @@ Next steps:
 
 - add price
 - loading animation
-- logo
 - signup -> login
 - create folder for documentation
+- total price
+- signup
 
 Low priority:
 
@@ -21,6 +22,7 @@ Low priority:
 - front end validations
 
 components:
+(needs to be updated)
 
 - App
 
