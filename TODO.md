@@ -1,10 +1,11 @@
 Next steps:
 
-- add price
+- quantity / count
+- confirmation total price
+- checkout form
 - loading animation
 - signup -> login
 - create folder for documentation
-- total price
 - signup
 
 Low priority:
