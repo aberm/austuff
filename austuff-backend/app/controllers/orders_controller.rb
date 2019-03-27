@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :update, :destroy]
-  
+
 
   # GET /orders
   def index
@@ -43,12 +43,6 @@ class OrdersController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_order
       @order = Order.find(params[:id])
-    end
-
-    def update_price
-      # only works for single products
-      self.total_price = self.products.map {|x| x.price }.reduce(:+)
-      self.save
     end
 
     # Only allow a trusted parameter "white list" through.
