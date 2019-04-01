@@ -7,4 +7,9 @@ class User < ApplicationRecord
   has_many :products, through: :order_items
   has_many :user_flights
   has_many :flights, through: :user_flights
+
+  # after_find do |user|
+  #   user.update(points: user.orders.map {|order| order.total_points }.compact.inject(:+))
+  # end
+
 end

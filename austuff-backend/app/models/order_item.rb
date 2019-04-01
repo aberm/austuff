@@ -7,6 +7,7 @@ class OrderItem < ApplicationRecord
   def update_price
     # only works for single products
     self.update(price: self.product.price * self.quantity)
+    self.update(points: self.product.points * self.quantity)
 
   end
 end

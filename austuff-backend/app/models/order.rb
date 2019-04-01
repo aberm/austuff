@@ -13,8 +13,9 @@ class Order < ApplicationRecord
 
   def update_price
     # only works for single products
-    # byebug
     self.total_price = self.order_items.inject(0){|sum,x| sum + x.price }
+    self.total_points = self.order_items.inject(0){|sum,x| sum + x.points }
+    self.user.update(points: self.user.orders.map {|order| order.total_points }.compact.inject(:+))
     self.save
 
   end
