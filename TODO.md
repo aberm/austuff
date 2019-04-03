@@ -2,11 +2,15 @@ Next steps:
 
 - quantity / count
 - confirmation total price
+- quantity collapse together
 - checkout form
 - loading animation
 - signup -> login
 - create folder for documentation
 - signup
+- heroku
+
+- styling
 
 Low priority:
 
