@@ -5,7 +5,7 @@ Mod 5 project using rails api, react, redux
 See /structure/ for schematics and wireframes
 
 To run:
-* clone this repository as well as 
+* clone this repository as well as austuff-frontend
 * `cd` into `austuff-backend` and run `bundle install`
 * run `rails db:setup`
 * run `rails s`
