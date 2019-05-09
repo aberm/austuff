@@ -7,6 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Product.destroy_all
+User.destroy_all
+
+User.create(username: "test", password: "1234")
 
 Product.create(name: "boomerang", category: "souvenir", price: 599, amount: 20, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Bgt7kCcUaTgf7m7MITTHjmKJ5_GeeePMWRHd5Nyb5TkXxm3DdA")
 Product.create(name: "meat pie", category: "food", price: 300, amount: 25, img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Steak_and_onion_pie.jpg/1200px-Steak_and_onion_pie.jpg")
