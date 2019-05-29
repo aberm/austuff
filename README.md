@@ -2,7 +2,7 @@
 
 Mod 5 project using rails api, react, redux
 
-See /structure/ for schematics and wireframes
+See `/structure` for schematics and wireframes
 
 To run:
 * clone this repository as well as austuff-frontend seperately
